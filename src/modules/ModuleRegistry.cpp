@@ -1,3 +1,4 @@
+#include "visual/totemtweaks.hpp"
 #include "ModuleRegistry.hpp"
 #include "visual/fullbright.hpp"
 #include "visual/motionblur.hpp"
@@ -109,4 +110,5 @@ void registerAllModules() {
     registry.emplace<ShulkerPreviewModule>();
     registry.emplace<ConnectedGlassModule>();
     registry.emplace<MaceWaveModule>();
+    registry.emplace<TotemTweaksModule>();
 }
